@@ -11,9 +11,9 @@ const icons = {
   palette: Palette,
 }
 
-export function ServicesSection() {
+export function Skills() {
   return (
-    <section id="services" className="py-16">
+    <section id="skills" className="py-16">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

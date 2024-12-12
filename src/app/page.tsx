@@ -1,6 +1,6 @@
 
 import { HeroSection } from "../components/hero-section"
-import { ServicesSection } from "../components/services-section"
+import { Skills } from "../components/skills"
 import { ExperienceSection } from "../components/experience-section"
 import { PortfolioSection } from "../components/portfolio-section"
 import { ContactSection } from "../components/contact-section"
@@ -11,7 +11,7 @@ export default function Home() {
     <main className="relative">
       <Nav />
       <HeroSection />
-      <ServicesSection />
+      <Skills />
       <ExperienceSection />
       <PortfolioSection />
       <ContactSection />
